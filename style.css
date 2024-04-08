@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: rgb(206, 255, 212);
+}
+
+header {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 8rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
